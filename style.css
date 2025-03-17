@@ -1,0 +1,12 @@
+.ikona{
+    max-width: 30px;
+}
+
+.inline-block{
+    display: inline-block;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
