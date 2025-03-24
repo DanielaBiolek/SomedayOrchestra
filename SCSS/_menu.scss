@@ -1,0 +1,46 @@
+@import 'colors';
+
+.menu_ikona{
+    display: block;
+    max-width: 30px;
+}
+
+
+.menu {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    background-color: $menuandstuff;
+}
+
+.menu_menu {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+}
+
+.menu_socky {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+}
+
+.menu_link{
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (min-width: 800px) {
+
+    .menu_item {
+        display: inline-block;
+        font-size: 20px;
+        margin: 0 10px
+    }
+
+}

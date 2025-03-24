@@ -1,0 +1,25 @@
+@use 'fonts';
+@use 'menu';
+@use 'header';
+@use 'footer';
+@use 'images';
+@use 'links';
+@use 'boxy';
+@import 'colors';
+
+
+html {box-sizing:border-box
+    ;}
+*, ::before, ::after{box-sizing:inherit;}
+
+body{
+    background-color: $black;
+    color: $basic-font;
+    width: 100vw;
+    margin: 0 auto;
+    max-width: 1800px;
+}
+
+.kontejner {
+    padding: 40px;
+}

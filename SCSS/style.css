@@ -1,0 +1,95 @@
+body {
+  font-family: Alexandria, Arial, Helvetica, sans-serif;
+}
+
+.menu_ikona {
+  display: block;
+  max-width: 30px;
+}
+
+.menu {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  background-color: #1D535E;
+}
+
+.menu_menu {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  list-style: none;
+  padding: 10px;
+  margin: 0;
+}
+
+.menu_socky {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+  padding: 10px;
+  margin: 0;
+}
+
+.menu_link {
+  text-decoration: none;
+  color: black;
+}
+
+@media screen and (min-width: 800px) {
+  .menu_item {
+    display: inline-block;
+    font-size: 20px;
+    margin: 0 10px;
+  }
+}
+.logo {
+  display: block;
+  width: 100vw;
+  margin: 0 auto;
+}
+
+.undertitle {
+  margin: 20px auto;
+  text-align: center;
+}
+
+.link {
+  color: #1D535E;
+}
+
+.novinky_booklet {
+  display: block;
+  width: 30%;
+  padding: 20px;
+}
+
+.okapele_konteiner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.okapele_fotka {
+  max-width: 100%;
+  padding: 20px;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, ::before, ::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #020204;
+  color: #C1E4EB;
+  width: 100vw;
+  margin: 0 auto;
+  max-width: 1800px;
+}
+
+.kontejner {
+  padding: 40px;
+}/*# sourceMappingURL=style.css.map */

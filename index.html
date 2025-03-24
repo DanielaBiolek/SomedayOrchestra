@@ -4,82 +4,104 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Someday Orchestra</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/SCSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="header">
         <img class="logo" src="logo.png" alt="Someday Orchestra">
-        <h1>...skutečné soundtracky fiktivních filmů...</h1>
-        <div class="menu">
-            <div class="menu-menu">
-                <a class="inline-block" href="#novinky">NOVINKY</a>
-                <a class="inline-block" href="#okapele">O KAPELE</a>
-                <a class="inline-block" href="#koncerty">KONCERTY</a>
-                <a class="inline-block" href="#kontakt">KONTAKT</a>
+        <h1 class="undertitle">...skutečné soundtracky fiktivních filmů...</h1>
+        <nav class="menu">
+            <ul class="menu_menu">
+                <li class="menu_item"><a class="menu_link" href="#novinky">NOVINKY</a></li>
+                <li class="menu_item"><a class="menu_link" href="#okapele">O KAPELE</a></li>
+                <li class="menu_item"><a class="menu_link" href="#koncerty">KONCERTY</a></li>
+                <li class="menu_item"><a class="menu_link" href="#kontakt">KONTAKT</a></li>
             
-            </div>
-            <div class="menu-socky">
-                <a href="https://www.facebook.com/somedayorchestra/"><img class="ikona" src="facebook.png" alt="FACEBOOK"></a>
-                <a href="https://somedayorchestra.bandcamp.com/"><img class="ikona" src="bandcamp.png" alt="BANDCAMP"></a>
-                <a href="index.html"><img class="ikona" src="spotify.png" alt="SPOTIFY"></a>
-                <a href="https://www.youtube.com/@somedayorchestra7105"><img class="ikona" src="youtube.png" alt="YOUTUBE"></a>
-                <a href="https://www.instagram.com/somedayorchestra/"><img class="ikona" src="instagram.png" alt="INSTAGRAM"></a>
+            </ul>
+            <ul class="menu_socky">
+                <li class="menu_item"><a href="https://www.facebook.com/somedayorchestra/"><img class="menu_ikona" src="facebook.png" alt="FACEBOOK"></a></li>
+                <li class="menu_item"><a href="https://somedayorchestra.bandcamp.com/"><img class="menu_ikona" src="bandcamp.png" alt="BANDCAMP"></a></li>
+                <li class="menu_item"><a href="index.html"><img class="menu_ikona" src="spotify.png" alt="SPOTIFY"></a></li>
+                <li class="menu_item"><a href="https://www.youtube.com/@somedayorchestra7105"><img class="menu_ikona" src="youtube.png" alt="YOUTUBE"></a></li>
+                <li class="menu_item"><a href="https://www.instagram.com/somedayorchestra/"><img class="menu_ikona" src="instagram.png" alt="INSTAGRAM"></a></li>
                 
-            </div>
+            </ul>
 
-        </div>
+        </nav>
     </header>
 
-<section id="novinky">
-    <h2>Novinky</h2>
-    <h3>Pořiďte si naše nové EP <a href="https://somedayorchestra.bandcamp.com/album/one-fine-day">One Fine Day...</a></h3>
-</section>
+<div class="kontejner">
+    <section id="novinky">
+        <div class="novinky_box1">
+            <h2>Novinky</h2>
+            <h3>Pořiďte si naše nové EP <a class="link" href="https://somedayorchestra.bandcamp.com/album/one-fine-day">One Fine Day...</a></h3>
+        </div>
+        <div class="novinky_box2">
+            <img class="novinky_booklet" src="booklet.png" alt="One fine day...">
+        </div>
+    </section>
 
-<img src="fotka1.jpg" alt="Someday orchestra">
-
-<section id="okapele">
+    
     
 
-    <h2>O kapele</h2>
-    <p>Kapela Someday Orchestra byla založena v roce 2021 v Brně a její název i přístup k tvorbě vychází z ideálu znít ''jednoho dne'' skoro jako velký symfonický orchestr. 
-    Vlastní autorské skladby jsou akustickou žánrovou fúzí čerpající inspiraci z klasické, filmové a videoherní hudby i mnoha dalších vlivů: trochu jazz, občas world music, jindy pop. 
-    Důraz na obrazotvornost, atmosféru, hravost i napětí dává vzniknout skutečným soundtrackům fiktivních filmů, na jejichž příbězích se svou fantazií podílí samo publikum. 
-    V březnu roku 2025 vydali své první EP s názvem "One Fine Day..."
-    </p>
+    <section id="okapele">
+        
 
-    <div>
-        <h4>Členové</h4>
-        <p>Tereza Vlachová (housle, zpěv)</p> 
-        <p>Martin Nešporek (klavír, ukulele, zpěv)</p>
-        <p>Jan Procházka (kontrabas, zpěv)</p>
-        <p>Jakub Zapletal (pozoun)</p>
-        <p>Jaroslav Biolek (perkuse, koncovka, ukulele, melodika)</p>
-        <p>Ondřej Lanča (bicí)</p>
-    </div>
-</section>
+        <h2>O kapele</h2>
 
-<section id="koncerty">
-    <h2>Koncerty</h2>
-
-    <p>Nadcházející i uplynulé koncerty naleznete na <a href="https://www.facebook.com/somedayorchestra/events">facebooku</a>.</p>
-</section>
-
-<section id="kontakt">
-
-    <img src="fotka2.jpg" alt="Someday orchestra">
-
-    <h2>Kontakt</h2>
-
-    <h4>Manažerka kapely</h4>
-    <p>MgA. Sabina Machačová</p>
-    <p><a href="tel:00420736649688">+420 736 649 688</a></p>
-    <p><a href="mailto:somedayorchestra@gmail.com">somedayorchestra@gmail.com</a></p>
-            
-    <img src="fotka3.jpg" alt="Someday orchestra">
-
-</section>
+        <div class="okapele_konteiner">
+            <div class="okapele_box1">
+                <p>Kapela Someday Orchestra byla založena v roce 2021 v Brně a její název i přístup k tvorbě vychází z ideálu znít ''jednoho dne'' skoro jako velký symfonický orchestr. 
+                Vlastní autorské skladby jsou akustickou žánrovou fúzí čerpající inspiraci z klasické, filmové a videoherní hudby i mnoha dalších vlivů: trochu jazz, občas world music, jindy pop. 
+                Důraz na obrazotvornost, atmosféru, hravost i napětí dává vzniknout skutečným soundtrackům fiktivních filmů, na jejichž příbězích se svou fantazií podílí samo publikum. 
+                V březnu roku 2025 vydali své první EP s názvem "One Fine Day..."
+                </p>
 
 
+                <p>Členstvo:</p>
+                <p>Tereza Vlachová (housle, zpěv)<br>
+                    Martin Nešporek (klavír, ukulele, zpěv)<br>
+                    Jan Procházka (kontrabas, zpěv)<br>
+                    Jaroslav Biolek (perkuse, koncovka, ukulele, melodika)<br>
+                    Ondřej Lanča (bicí)<br>
+                    Jakub Zapletal (pozoun)
+                </p>
+            </div>
+        
+            <div class="okapele_box2">
+                <img class="okapele_fotka" src="fotka1.jpg" alt="Someday orchestra">
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <section id="koncerty">
+        <h2>Koncerty</h2>
+
+        <p>Nadcházející i uplynulé koncerty naleznete na <a class="link" href="https://www.facebook.com/somedayorchestra/events">facebooku</a>.</p>
+    </section>
+
+    <section id="kontakt">
+
+        <img src="fotka2.jpg" alt="Someday orchestra">
+
+        <h2>Kontakt</h2>
+
+        <h4>Manažerka kapely</h4>
+        <p>MgA. Sabina Machačová</p>
+        <p><a href="tel:00420736649688">+420 736 649 688</a></p>
+        <p><a href="mailto:somedayorchestra@gmail.com">somedayorchestra@gmail.com</a></p>
+                
+        <img src="fotka3.jpg" alt="Someday orchestra">
+
+    </section>
+
+</div>
 
 <footer>
    <p>Someday Orchestra 2025</p>

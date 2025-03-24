@@ -1,0 +1,15 @@
+.novinky_booklet {
+    display: block;
+    width: 30%;
+    padding: 20px;
+}
+
+.okapele_konteiner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.okapele_fotka {
+    max-width: 100%;
+    padding: 20px;
+}
