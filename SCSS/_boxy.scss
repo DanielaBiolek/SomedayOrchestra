@@ -13,3 +13,18 @@
     max-width: 100%;
     padding: 20px;
 }
+
+.fotky_kontejner {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+}
+
+.fotky_image {
+    display: block;
+    max-width: 100%;
+}
+
+section {
+    padding: 20px 0;
+}
