@@ -54,13 +54,25 @@ body {
   text-align: center;
 }
 
+.footer_kontejner {
+  display: flex;
+  justify-content: center;
+  color: #020204;
+  background-color: #1D535E;
+}
+
 .link {
   color: #1D535E;
 }
 
+.novinky_kontejner {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
 .novinky_booklet {
   display: block;
-  width: 30%;
+  width: 100%;
   padding: 20px;
 }
 
@@ -85,8 +97,33 @@ body {
   max-width: 100%;
 }
 
+.kontakt_kontejner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.kontakt_card {
+  border: 2px solid #1D535E;
+  border-radius: 30px;
+  padding: 20px;
+  margin: 20px;
+}
+
+.kontakt_fotka {
+  max-width: 100%;
+  padding: 20px;
+}
+
 section {
   padding: 20px 0;
+}
+
+.button {
+  padding: 10px 20px;
+  margin: 50px 0;
+  border: 2px solid #1D535E;
+  border-radius: 30px;
+  display: inline-block;
 }
 
 html {

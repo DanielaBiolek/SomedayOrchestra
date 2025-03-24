@@ -1,0 +1,9 @@
+@import 'colors';
+
+
+.footer_kontejner {
+    display: flex;
+    justify-content: center;
+    color: $black;
+    background-color: $menuandstuff;
+}
