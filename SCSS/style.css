@@ -59,8 +59,8 @@ body {
 .footer_kontejner {
   display: flex;
   justify-content: center;
-  color: #020204;
-  background-color: #1D535E;
+  color: #C1E4EB;
+  border-top: 2px solid #1D535E;
 }
 
 .link {
@@ -69,7 +69,7 @@ body {
 
 .novinky_kontejner {
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 1fr 2fr;
 }
 
 .novinky_booklet {
@@ -88,10 +88,16 @@ body {
   padding: 20px;
 }
 
+.okapele_clenstvo {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  justify-items: center;
+}
+
 .fotky_kontejner {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 40px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 60px;
 }
 
 .fotky_image {

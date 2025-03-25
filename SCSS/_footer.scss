@@ -4,6 +4,6 @@
 .footer_kontejner {
     display: flex;
     justify-content: center;
-    color: $black;
-    background-color: $menuandstuff;
+    color: $basic-font;
+    border-top: 2px solid $menuandstuff;
 }

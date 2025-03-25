@@ -2,7 +2,7 @@
 
 .novinky_kontejner {
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 1fr 2fr;
 }
 
 .novinky_booklet {
@@ -21,10 +21,16 @@
     padding: 20px;
 }
 
+.okapele_clenstvo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    justify-items: center;
+}
+
 .fotky_kontejner {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 40px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 60px;
 }
 
 .fotky_image {
