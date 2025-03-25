@@ -5,11 +5,16 @@
     max-width: 30px;
 }
 
+body {
+    position: relative;
+}
 
 .menu {
     display: grid;
     grid-template-columns: 2fr 1fr;
     background-color: $menuandstuff;
+    position: sticky;
+    padding: 10px;
 }
 
 .menu_menu {
