@@ -7,7 +7,9 @@
     <link rel="stylesheet" href="SCSS/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&family=Cairo:wght@200..1000&family=Poiret+One&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="header">
@@ -38,7 +40,7 @@
 
 <div class="body_kontejner">
     <section id="novinky">
-        <h1>Novinky</h1>
+        <h1 class="nadpis">Novinky</h1>
         <div class="novinky_kontejner">
             <div class="novinky_box2">
                 <img class="novinky_booklet" src="images/logo.jpg" alt="One fine day...">
@@ -47,7 +49,7 @@
                 <p>V září roku 2024 jsme ve studiu Indies pod laskavým a profesionálním vedením mistra zvuku Dušana Součka nahráli několik skladeb, které k uchuladící zvukomalebnosti postprodukčně dotáhl a zmasteroval náš kamarád Ondrej Kalužák. 
                     Zatím si je můžete stáhnout za mírný finanční příspěvek, brzy je v podobě singlů budeme vydávat na YouTube, kapelním Facebooku a dalších platformách zdarma. 
                     Pro případné zájemce s mecenášskými sklony:</p>
-                <h3 class="button">Pořiďte si naše nové EP <a class="link" href="https://somedayorchestra.bandcamp.com/album/one-fine-day">One Fine Day...</a></h3>
+                <h3 class="novinky_button">Pořiďte si naše nové EP <a class="link" href="https://somedayorchestra.bandcamp.com/album/one-fine-day">One Fine Day...</a></h3>
             </div>
         
         </div>
@@ -59,7 +61,7 @@
     <section id="okapele">
         
 
-        <h1>O kapele</h1>
+        <h1 class="nadpis">O kapele</h1>
 
         <div class="okapele_konteiner">
             <div class="okapele_box1">
@@ -74,45 +76,55 @@
                 <img class="okapele_fotka" src="images/fotka1.jpg" alt="Someday orchestra">
             </div>
         </div>
+    
+    </section>
 
-        <p>Členstvo:</p>
-                <div class="okapele_clenstvo">
-                    <p>Tereza Vlachová</p>
-                    <p>Martin Nešporek</p>
-                    <p>Jan Procházka</p>
-                    <p>Jaroslav Biolek</p>
-                    <p>Ondřej Lanča</p>
-                    <p>Jakub Zapletal</p>
+    <section class="okapele_clenstvo">             
 
-                    <img class="okapele_fotka" src="images/terka.jpg" alt="Terka">
-                    <img class="okapele_fotka" src="images/martin.jpg" alt="Martin">
-                    <img class="okapele_fotka" src="images/honza.jpg" alt="Honza">
-                    <img class="okapele_fotka" src="images/jarda.jpg" alt="Jarda">
-                    <img class="okapele_fotka" src="images/ondra.JPG" alt="Ondra">
-                    <img class="okapele_fotka" src="images/kuba.jpg" alt="Kuba">
-
-                    <p>(housle, zpěv)</p>
-                    <p>(klavír, ukulele, zpěv)</p>
-                    <p>(kontrabas, zpěv)</p>
-                    <p>(perkuse, koncovka, ukulele, melodika)</p>
-                    <p>(bicí)</p>
-                    <p>(pozoun)</p>
-
-                </div>
+        <div class="okapele_clen">
+            <img class="okapele_clenofotka" src="images/terka.jpg" alt="Terka">
+            <p class="okapele_clenotext">Tereza Vlachová</p>
+            <p class="okapele_clenotext okapele_clenotext-smaller">housle, zpěv</p>
+        </div>
+        <div class="okapele_clen">
+            <img class="okapele_clenofotka" src="images/martin.jpg" alt="Martin">
+            <p class="okapele_clenotext">Martin Nešporek</p>
+            <p class="okapele_clenotext okapele_clenotext-smaller">klavír, ukulele, zpěv</p>
+        </div>
+        <div class="okapele_clen">
+            <img class="okapele_clenofotka" src="images/honza.jpg" alt="Honza">
+            <p class="okapele_clenotext">Jan Procházka</p>
+            <p class="okapele_clenotext okapele_clenotext-smaller">kontrabas, zpěv</p>
+        </div>
+        <div class="okapele_clen">
+            <img class="okapele_clenofotka" src="images/jarda.jpg" alt="Jarda">
+            <p class="okapele_clenotext">Jaroslav Biolek</p>
+            <p class="okapele_clenotext okapele_clenotext-smaller">perkuse, koncovka, ukulele, melodika</p>
+        </div>
+        <div class="okapele_clen">
+            <img class="okapele_clenofotka" src="images/ondra.JPG" alt="Ondra">
+            <p class="okapele_clenotext">Ondřej Lanča</p>
+            <p class="okapele_clenotext okapele_clenotext-smaller">bicí</p>
+        </div>
+        <div class="okapele_clen">
+            <img class="okapele_clenofotka" src="images/kuba.jpg" alt="Kuba">
+            <p class="okapele_clenotext">Jakub Zapletal</p>
+            <p class="okapele_clenotext okapele_clenotext-smaller">pozoun</p>
+        </div>                
 
     </section>
 
 
 
     <section id="koncerty">
-        <h1>Koncerty</h1>
+        <h1 class="nadpis">Koncerty</h1>
 
         <p>Nadcházející i uplynulé koncerty naleznete na <a class="link" href="https://www.facebook.com/somedayorchestra/events">facebooku</a>.</p>
     </section>
 
 
     <section id="fotky">
-        <h1>Fotogalerie</h1>
+        <h1 class="nadpis">Fotogalerie</h1>
         <div class="fotky_kontejner">
             <a  data-fslightbox href="images/fotka1.jpg">
                 <img class="fotky_image" src="images/fotka1.jpg" alt="Fotka1">
@@ -154,18 +166,18 @@
         </div>
     </section>
 
+
+
     <section id="kontakt">
 
-        <h1>Kontakt</h1>
+        <h1 class="nadpis">Kontakt</h1>
             <div class="kontakt_kontejner">
-                <div class="kontakt_box1">
-                    <div class="kontakt_card">
+                    <div class="kontakt_box1 kontakt_card">
                         <h4>Manažerka kapely</h4>
                         <p>MgA. Sabina Machačová</p>
-                        <p><a href="tel:00420736649688">+420 736 649 688</a></p>
-                        <p><a href="mailto:somedayorchestra@gmail.com">somedayorchestra@gmail.com</a></p>
+                        <p><a class="link" href="tel:00420736649688">+420 736 649 688</a></p>
+                        <p><a class="link" href="mailto:somedayorchestra@gmail.com">somedayorchestra@gmail.com</a></p>
                     </div>
-                </div>
                 <div class="kontakt_box2">
                     <img class="kontakt_fotka" src="images/fotka3.jpg" alt="Someday orchestra">
            

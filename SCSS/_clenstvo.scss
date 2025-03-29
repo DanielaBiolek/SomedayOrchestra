@@ -1,0 +1,25 @@
+@import 'colors';
+
+.okapele_clen {
+border: 1px solid $menuandstuff;
+}
+
+.okapele_clenstvo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    gap: 20px
+}
+
+.okapele_clenotext {
+    text-align: center;
+}
+
+.okapele_clenofotka {
+    max-width: 100%;
+    padding: 0;
+}
+
+.okapele_clenotext-smaller {
+    font-size: 12px;
+}

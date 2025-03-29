@@ -1,0 +1,13 @@
+
+.fotky_kontejner {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 60px;
+}
+
+.fotky_image {
+    display: block;
+    max-width: 100%;
+}
+
+
