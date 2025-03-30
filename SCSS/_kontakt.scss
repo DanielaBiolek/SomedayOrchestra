@@ -3,18 +3,38 @@
 
 .kontakt_card{
     border: 2px solid $menuandstuff;
-    border-radius: 30px;
+    border-radius: 20px;
     padding: 10px;
-    margin: 20px;
-    text-align: center;
+    margin: 20px 0;
 }
 
-.kontakt_fotka {
-    max-width: 100%;
-    padding: 20px;
+
+.kontakt_socky {
+    list-style: none;
+    }
+
+.kontakt_box2 {
+    border: 2px solid $menuandstuff;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 0px;
 }
 
-/*.kontakt_kontejner {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-}*/
+@media screen and (min-width: 1000px) {
+    .kontakt_kontejner {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .kontakt_card{
+        padding: 20px;
+        margin: 20px;
+        border-radius: 30px;
+    }
+
+    .kontakt_box2{
+        padding: 20px;
+        margin: 20px;
+        border-radius: 30px;
+    }
+
+}    

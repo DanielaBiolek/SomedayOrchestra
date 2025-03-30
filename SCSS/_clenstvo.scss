@@ -1,12 +1,15 @@
 @import 'colors';
 
 .okapele_clen {
-border: 1px solid $menuandstuff;
+border: 1px solid $darker;
+background-color: $darker;
+border-radius: 5px;
+padding: 5px
 }
 
 .okapele_clenstvo {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     justify-items: center;
     gap: 20px
 }
@@ -22,4 +25,12 @@ border: 1px solid $menuandstuff;
 
 .okapele_clenotext-smaller {
     font-size: 12px;
+}
+
+@media screen and (min-width: 1000px) {
+    .okapele_clenstvo {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        gap: 20px
+    }
+
 }

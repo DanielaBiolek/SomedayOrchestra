@@ -3,3 +3,8 @@
 .link {
     color: $menuandstuff;
 }
+
+.link:hover,
+.link:focus {
+    color: $hoverandstuff;
+}

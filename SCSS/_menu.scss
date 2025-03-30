@@ -3,47 +3,69 @@
 .menu_ikona{
     display: block;
     max-width: 30px;
+    transition: transform(0,8s);
 }
-
-
 
 .menu {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
     background-color: $menuandstuff;
-    position: sticky;
-    top: 0;
 }
 
-.menu_menu {
+.menu_socky {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     list-style: none;
     padding: 10px;
     margin: 0;
 }
 
-.menu_socky {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+.menu_menu {
     list-style: none;
-    padding: 10px;
+    text-align: center;
     margin: 0;
 }
 
 .menu_link{
     text-decoration: none;
-    color: black;
+    color: $black;
 }
 
-@media screen and (min-width: 800px) {
+.menu_link:hover,
+.menu_link:focus {
+    color: $potencila3
+}
 
+.menu_ikona:hover,
+.menu_ikona:focus {
+    transform: translate(-1px, -1px);
+}
+
+.menu_ikona:active {
+    transform: translate(0, 0);
+}
+
+
+@media screen and (min-width: 1000px) {
+
+    .menu {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        position: sticky;
+        top: 0;
+    }
     .menu_item {
         display: inline-block;
         font-size: 20px;
         margin: 0 10px
     }
+
+    .menu_menu {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 10px;
+        margin: 0;
+    }
+
 
 }

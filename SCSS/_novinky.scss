@@ -1,9 +1,5 @@
 @import 'colors';
 
-.novinky_kontejner {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-}
 
 .novinky_booklet {
     display: block;
@@ -12,9 +8,22 @@
 }
 
 .novinky_button {
-    padding: 10px 20px;
-    margin: 50px;
+    padding: 5px 10px;
+    margin: 10px 0 0 0;
     border: 2px solid $menuandstuff;
-    border-radius: 30px;
+    border-radius: 20px;
     display: inline-block;
+}
+
+@media screen and (min-width: 1000px) {
+    .novinky_kontejner {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+
+    .novinky_button {
+        padding: 10px 20px;
+        margin: 50px;
+        border-radius: 30px;
+}
 }

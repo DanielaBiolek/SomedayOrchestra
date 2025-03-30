@@ -1,9 +1,11 @@
 @import 'colors';
 
+.footer_text {
+    text-align: center;
+}
 
-.footer_kontejner {
-    display: flex;
-    justify-content: center;
-    color: $basic-font;
-    border-top: 2px solid $menuandstuff;
+.footer_fotka {
+    max-width: 100%;
+    display: inline-block;
+    margin: 0 auto;
 }
