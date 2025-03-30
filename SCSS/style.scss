@@ -12,8 +12,10 @@
 
 
 
-html {box-sizing:border-box
-    ;}
+html {
+    box-sizing:border-box;
+    scroll-behavior: smooth;
+}
 *, ::before, ::after{box-sizing:inherit;}
 
 body{
@@ -23,6 +25,8 @@ body{
     margin: 0 auto;
     max-width: 1800px;
 }
+
+
 
 .body_kontejner {
     padding: 50px;
