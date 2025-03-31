@@ -35,30 +35,13 @@ section {
 }
 
 
-@media screen and (min-width: 480px) {
-  
-    .body_kontejner {
-        max-width: 500px;
-        margin: 0 auto;
-    }
-}
-
-@media screen and (min-width: 800) {
-
-    .body_kontejner {
-        max-width: 900px;
-    }
-}
-
 
 @media screen and (min-width: 1000px) {
     .body_kontejner {
         padding: 50px;
     }
 
-    body {
-        max-width: 1800px;
-    }
+
 }
 
 
