@@ -69,6 +69,11 @@
   background-color: #050e10;
 }
 
+.ham-box {
+  position: sticky;
+  top: 0;
+}
+
 .ham-menu {
   height: 50px;
   width: 50px;
