@@ -83,6 +83,10 @@
   margin: 0 auto;
 }
 
+footer {
+  background-color: #0E292F;
+}
+
 .link {
   color: #1D535E;
 }
@@ -164,6 +168,30 @@
   font-size: 12px;
 }
 
+@media screen and (min-width: 480px) {
+  .okapele_clenstvo {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+  }
+}
+@media screen and (min-width: 600px) {
+  .okapele_clenstvo {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+  }
+}
+@media screen and (min-width: 720px) {
+  .okapele_clenstvo {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+  }
+}
+@media screen and (min-width: 820px) {
+  .okapele_clenstvo {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+  }
+}
 @media screen and (min-width: 1000px) {
   .okapele_clenstvo {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -254,9 +282,29 @@ body {
 }
 
 .body_kontejner {
-  padding: 50px;
+  padding: 0 20px;
 }
 
 section {
   padding: 30px 0;
+}
+
+@media screen and (min-width: 480px) {
+  .body_kontejner {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+}
+@media screen and (min-width: 800) {
+  .body_kontejner {
+    max-width: 900px;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .body_kontejner {
+    padding: 50px;
+  }
+  body {
+    max-width: 1800px;
+  }
 }/*# sourceMappingURL=style.css.map */

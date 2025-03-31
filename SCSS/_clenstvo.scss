@@ -27,10 +27,37 @@ padding: 5px
     font-size: 12px;
 }
 
+@media screen and (min-width: 480px) {
+    .okapele_clenstvo {
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 10px
+    }
+}
+
+@media screen and (min-width: 600px) {
+.okapele_clenstvo {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px
+    }
+}
+
+@media screen and (min-width: 720px) {
+    .okapele_clenstvo {
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 30px
+    }
+}
+
+@media screen and (min-width: 820px) {
+    .okapele_clenstvo {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        gap: 10px
+    }
+}
+
 @media screen and (min-width: 1000px) {
     .okapele_clenstvo {
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
         gap: 20px
     }
-
 }
