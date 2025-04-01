@@ -9,6 +9,15 @@
   display: none;
 }
 
+.menu_socky-ham {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 10px;
+  margin: 0;
+}
+
 .menu_socky {
   display: flex;
   justify-content: center;
@@ -22,6 +31,14 @@
   list-style: none;
   text-align: center;
   margin: 0;
+}
+
+.ham_menubox {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  position: sticky;
+  top: 0;
+  background-color: #1D535E;
 }
 
 .menu_link {
@@ -47,10 +64,10 @@
   background-color: #1D535E;
   height: 100vh;
   width: 100%;
-  max-width: 450px;
+  max-width: 200px;
   position: fixed;
   top: 0;
-  right: -450px;
+  right: -200px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -75,8 +92,8 @@
 }
 
 .ham-menu {
-  height: 50px;
-  width: 50px;
+  height: 40px;
+  width: 40px;
   margin-left: auto;
   margin-right: 20px;
   position: relative;
@@ -85,7 +102,7 @@
 .ham-menu span {
   height: 5px;
   width: 100%;
-  background-color: #d1a11b;
+  background-color: #050e10;
   border-radius: 25px;
   position: absolute;
   top: 50%;
@@ -140,6 +157,9 @@
     align-items: center;
     padding: 10px;
     margin: 0;
+  }
+  .menu_socky-ham {
+    display: none;
   }
 }
 .logo {
