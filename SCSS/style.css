@@ -10,7 +10,7 @@
 }
 
 .footer_text {
-  text-align: left;
+  text-align: center;
 }
 
 footer {
@@ -30,19 +30,25 @@ footer {
 .kontakt_card {
   border: 2px solid #1D535E;
   border-radius: 20px;
-  padding: 10px;
+  padding: 50px;
   margin: 20px 0;
+  text-align: center;
+}
+
+.kontakt_item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.kontakt_ikona {
+  display: inline-block;
+  max-width: 50px;
+  padding: 0 10px;
 }
 
 .kontakt_socky {
   list-style: none;
-}
-
-.kontakt_box2 {
-  border: 2px solid #1D535E;
-  border-radius: 20px;
-  padding: 10px;
-  margin: 0px;
 }
 
 @media screen and (min-width: 1000px) {
@@ -51,14 +57,10 @@ footer {
     grid-template-columns: 1fr 1fr;
   }
   .kontakt_card {
-    padding: 20px;
+    border: 2px solid #1D535E;
+    border-radius: 20px;
+    padding: 50px;
     margin: 20px;
-    border-radius: 30px;
-  }
-  .kontakt_box2 {
-    padding: 20px;
-    margin: 20px;
-    border-radius: 30px;
   }
 }
 .okapele_fotka {
@@ -169,6 +171,10 @@ body {
 
 .line_height-2 {
   line-height: 2;
+}
+
+.cursive {
+  font-style: oblique;
 }
 
 .menu-klasik {
