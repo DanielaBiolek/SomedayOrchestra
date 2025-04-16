@@ -1,5 +1,10 @@
 @import 'colors';
 
+.kontakt_kontejner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .kontakt_card {
     display: inline-block;
@@ -33,16 +38,23 @@
     margin-top: 0;
 }
 
-@media screen and (min-width: 1000px) {
-
+@media screen and (min-width: 660px) {
     .kontakt_kontejner {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        justify-items: center;
+        gap: 20px
     }
+  
+    .kontakt_card {
+        max-width: 100%;
+    }
+}
+
+
+@media screen and (min-width: 1000px) {
     .kontakt_card {
         border-radius: 50px;
-        margin: 20px;
     }
 
+   
 }    
