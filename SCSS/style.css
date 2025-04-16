@@ -53,6 +53,7 @@ footer {
   padding: 50px;
   margin: 20px 0;
   text-align: center;
+  min-width: 100%;
 }
 
 .kontakt_item {
@@ -65,6 +66,11 @@ footer {
   display: inline-block;
   max-width: 50px;
   padding: 10px;
+}
+
+.kontakt_sockybox {
+  display: flex;
+  justify-content: center;
 }
 
 .kontakt_socky {
@@ -81,14 +87,15 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
+    align-items: start;
   }
   .kontakt_card {
     max-width: 100%;
   }
 }
-@media screen and (min-width: 1000px) {
-  .kontakt_card {
-    border-radius: 50px;
+@media screen and (min-width: 800px) {
+  .kontakt_kontejner {
+    gap: 50px;
   }
 }
 .okapele_fotka {
