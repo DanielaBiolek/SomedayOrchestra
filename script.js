@@ -7,3 +7,11 @@ hamMenu.addEventListener('click', () => {
     offScreenMenu.classList.toggle('active');
     }
 )
+
+const menuItem = document.querySelector('.menu_item-ham');
+
+menuItem.addEventListener('click', () => {
+    hamMenu.classList.toggle('active'); 
+    offScreenMenu.classList.toggle('active');
+    }
+)

@@ -45,13 +45,15 @@
     transition: 0.3s ease;
 }
 
-.menu-sekce-ham {
+.menu_sekce-ham {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: right;
     text-align: right;
     list-style: none;
+    padding-right: 30px;
+    padding-top: 30px;
 }
 
 .menu-off-screen.active {
@@ -91,6 +93,7 @@
     top: 50%;
     transform: rotate(-45deg);
 }
+
 
 .menu_link {
     display: inline-block;

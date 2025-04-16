@@ -28,7 +28,9 @@ footer {
 }
 
 .kontakt_card {
-  border: 2px solid #1D535E;
+  display: inline-block;
+  background-color: #0E292F;
+  border: 2px solid #0E292F;
   border-radius: 20px;
   padding: 50px;
   margin: 20px 0;
@@ -37,29 +39,33 @@ footer {
 
 .kontakt_item {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
 }
 
 .kontakt_ikona {
   display: inline-block;
   max-width: 50px;
-  padding: 0 10px;
+  padding: 10px;
 }
 
 .kontakt_socky {
   list-style: none;
+  padding: 0;
+}
+
+.nadpis-kontakt {
+  margin-top: 0;
 }
 
 @media screen and (min-width: 1000px) {
   .kontakt_kontejner {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    justify-items: center;
   }
   .kontakt_card {
-    border: 2px solid #1D535E;
-    border-radius: 20px;
-    padding: 50px;
+    border-radius: 50px;
     margin: 20px;
   }
 }
@@ -221,13 +227,15 @@ body {
   transition: 0.3s ease;
 }
 
-.menu-sekce-ham {
+.menu_sekce-ham {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: right;
   text-align: right;
   list-style: none;
+  padding-right: 30px;
+  padding-top: 30px;
 }
 
 .menu-off-screen.active {
