@@ -4,6 +4,10 @@
   margin: 0 auto;
 }
 
+.logo-bigscreen {
+  display: none;
+}
+
 .undertitle {
   margin: 20px auto;
   text-align: center;
@@ -12,6 +16,12 @@
 @media screen and (min-width: 500px) {
   .undertitle {
     font-size: 20px;
+  }
+  .logo-smallscreen {
+    display: none;
+  }
+  .logo-bigscreen {
+    display: block;
   }
 }
 @media screen and (min-width: 800px) {
@@ -155,7 +165,7 @@ footer {
 
 @media screen and (min-width: 500px) {
   .novinky_booklet {
-    max-width: 60%;
+    max-width: 50%;
     float: left;
   }
 }
