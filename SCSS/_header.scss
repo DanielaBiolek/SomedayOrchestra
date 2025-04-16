@@ -9,15 +9,12 @@
 }
 
 .undertitle {
-    margin: 20px auto;
+    margin: 25px auto;
     text-align: center;
 }
 
 @media screen and (min-width: 500px) {
-    .undertitle {
-        font-size: 20px;
-    }
-
+  
     .logo-smallscreen {
         display: none;
     }
@@ -28,8 +25,3 @@
 }
 
 
-@media screen and (min-width: 800px) {
-    .undertitle {
-        font-size: 25px;
-    }
-}
