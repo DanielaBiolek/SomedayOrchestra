@@ -22,10 +22,6 @@
     margin: 0;
 }
 
-.menu_hambox {
-    position: sticky;
-    top: 0;
-}
 
 .menu_hamburger {
     height: 40px;
@@ -33,6 +29,7 @@
     margin-right: auto;
     position: relative;
 }
+
 
 .menu-off-screen {
     background-color: $menuandstuff;
@@ -94,6 +91,9 @@
     transform: rotate(-45deg);
 }
 
+.menu_hamburger.hover span {
+    background-color: $hoverandstuff
+}
 
 .menu_link {
     display: inline-block;
