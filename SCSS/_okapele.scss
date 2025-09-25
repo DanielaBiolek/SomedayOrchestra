@@ -2,6 +2,7 @@
 .okapele_fotka {
     max-width: 100%;
     padding: 20px;
+    display: none;
 }
 
 @media screen and (min-width: 1000px) {
@@ -9,4 +10,9 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
+
+    .okapele_fotka {
+        display: block;
+    }
+
 }
