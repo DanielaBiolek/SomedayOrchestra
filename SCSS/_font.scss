@@ -1,11 +1,12 @@
 body {
-    font-family: Alexandria, Arial, Helvetica, sans-serif;
+    font-family: Urbanist, Arial, Helvetica, sans-serif;
     font-weight: 400;
 }
 
 .nadpis {
     font-family: Poiret One, Arial, Helvetica, sans-serif;
-    font-size: 30px;
+    font-size: 40px;
+    padding-bottom: 20px;
 }
 
 .line_height-2 {
@@ -14,4 +15,12 @@ body {
 
 .cursive {
     font-style: oblique;
+}
+
+.font_light {
+    font-weight: 400;
+}
+
+.font_bold {
+    font-weight: 700;
 }
