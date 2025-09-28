@@ -1,21 +1,28 @@
 @import 'colors';
 
-.koncerty_kontejner {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 5px;
-    padding-bottom: 30px;
-    max-width: 100vw;
-}
+
 
 .koncerty_koncert {
-border: 1px solid $darker;
-background-color: $darker;
-border-radius: 5px;
-padding: 5px;
-text-align: center;
+    border: 1px solid $darker;
+    background-color: $darker;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
 }
 
+@media screen and (min-width: 410px) {
+    .koncerty_kontejner {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        padding-bottom: 30px;
+        max-width: 100vw;
+    }
+
+
+
+}
 
 @media screen and (min-width: 500px) {
     .koncerty_kontejner {
