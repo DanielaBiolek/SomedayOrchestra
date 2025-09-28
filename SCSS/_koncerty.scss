@@ -1,0 +1,24 @@
+@import 'colors';
+
+.koncerty_kontejner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding-bottom: 30px;
+}
+
+.koncerty_koncert {
+border: 1px solid $darker;
+background-color: $darker;
+border-radius: 5px;
+padding: 20px;
+text-align: center;
+}
+
+
+@media screen and (min-width: 700px) {
+    .koncerty_kontejner {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+

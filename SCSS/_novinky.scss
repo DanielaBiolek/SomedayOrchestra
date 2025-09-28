@@ -7,15 +7,11 @@
     padding: 20px 20px 20px 0;
 }
 
-.novinky_fotka {
-    display:block;
-    max-width: 100%;
-}
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 700px) {
   
     .novinky_booklet {
-        max-width: 50%;
+        max-width: 60%;
         float: left;
     }
 }
@@ -27,6 +23,7 @@
     }
     .novinky_booklet {
         max-width: 100%;
+        float: none;
     }
 
 }
@@ -34,7 +31,7 @@
 
 @media screen and (min-width: 1100px) {
     .novinky_kontejner {
-        grid-template-columns: 1fr 2fr;
+        grid-template-columns: 1fr 1fr;
     }
 
    

@@ -1,12 +1,17 @@
 body {
     font-family: Urbanist, Arial, Helvetica, sans-serif;
     font-weight: 400;
+    font-size: 16px;
+}
+
+.okapele_clenotext-smaller {
+    font-size: 14px;
 }
 
 .nadpis {
     font-family: Poiret One, Arial, Helvetica, sans-serif;
     font-size: 40px;
-    padding-bottom: 20px;
+    padding-bottom: 24px;
 }
 
 .line_height-2 {
@@ -23,4 +28,22 @@ body {
 
 .font_bold {
     font-weight: 700;
+}
+
+@media screen and (min-width: 600px) {
+  body {
+    font-size: 18px;
+}
+.okapele_clenotext-smaller {
+    font-size: 14px;
+}
+}
+
+@media screen and (min-width: 1100px) {
+  body {
+    font-size: 20px;
+}
+.okapele_clenotext-smaller {
+    font-size: 16px;
+}
 }
