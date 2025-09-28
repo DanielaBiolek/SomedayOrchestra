@@ -12,7 +12,7 @@
 border: 1px solid $darker;
 background-color: $darker;
 border-radius: 5px;
-padding: 20px;
+padding: 10px;
 text-align: center;
 }
 
@@ -20,6 +20,9 @@ text-align: center;
 @media screen and (min-width: 500px) {
     .koncerty_kontejner {
         gap: 20px;
+    }
+    .koncerty_koncert {
+        padding: 20px;
     }
 }
 
