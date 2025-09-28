@@ -267,6 +267,10 @@ body {
   margin: 0;
 }
 
+.menu_hambox {
+  padding-left: 10px;
+}
+
 .menu_hamburger {
   height: 40px;
   width: 40px;
@@ -289,7 +293,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: right;
   text-align: right;
   list-style: none;
   padding-right: 30px;
