@@ -3,8 +3,9 @@
 .koncerty_kontejner {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 20px;
+    gap: 10px;
     padding-bottom: 30px;
+    max-width: fit-content;
 }
 
 .koncerty_koncert {
@@ -15,6 +16,12 @@ padding: 20px;
 text-align: center;
 }
 
+
+@media screen and (min-width: 500px) {
+    .koncerty_kontejner {
+        gap: 20px;
+    }
+}
 
 @media screen and (min-width: 700px) {
     .koncerty_kontejner {
