@@ -1,6 +1,6 @@
 .logo {
   display: block;
-  width: 100vw;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -260,11 +260,12 @@ body {
 
 .menu_socky {
   display: flex;
-  justify-content: right;
+  justify-content: flex-end;
   align-items: center;
   list-style: none;
   padding: 10px;
   margin: 0;
+  flex: 1;
 }
 
 .menu_hambox {
@@ -379,7 +380,7 @@ body {
   transform: translate(0, 0);
 }
 
-@media screen and (min-width: 1055px) {
+@media screen and (min-width: 1000px) {
   .menu-ham {
     display: none;
   }
@@ -389,6 +390,7 @@ body {
     grid-template-columns: 4fr 1fr;
     position: sticky;
     top: 0;
+    width: 100%;
   }
   .menu_sekce {
     display: flex;
@@ -397,6 +399,7 @@ body {
     padding: 10px 20px;
     margin: 0;
     list-style: none;
+    flex: 1;
   }
 }
 .koncerty_koncert {
