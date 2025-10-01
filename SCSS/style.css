@@ -260,6 +260,7 @@ body {
   position: sticky;
   top: 0;
   background-color: #1D535E;
+  z-index: 100;
 }
 
 .menu_socky {
@@ -395,6 +396,7 @@ body {
     position: sticky;
     top: 0;
     width: 100%;
+    z-index: 100;
   }
   .menu_sekce {
     display: flex;
